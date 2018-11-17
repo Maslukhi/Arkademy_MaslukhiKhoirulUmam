@@ -1,0 +1,199 @@
+/*Desain Utama*/
+
+
+body			{ font-family: arial, sans-serif; 
+					background-color: #CCCC99;
+				}/*Jenis huruf, warna background body*/
+				
+.pembungkus		{ width: 1320px;
+					height: 635px;
+					background-color: white;
+					padding: 5px;
+					margin: auto
+				}/*Lebar, tinggi, warna background, jarak tepi, rata tengah pembungkus*/
+				
+.header			{ width: ;
+					height: 150px;
+					text-align: center
+				}/*Lebar, tinggi, rata tengah header*/
+				
+.logo			{ width: ;
+					height: 150px;
+					background-color: #6699FF;
+					float: left
+				}/*Lebar, tinggi, warna background, rata kiri logo*/
+				
+.namaAplikasi	{ width: 1170px;
+					height: 150px;
+					background-color: #6699FF;
+					text-align: center;
+					float: left
+				}/*Lebar, tinggi, warna background, rata tengah, rata kanan nama aplikasi*/ 
+				
+.h1			{ font-family: sans-serif }/*Jenis huruf nama aplikasi*/
+
+.special	{ color: #FFFF00 }   /*Warna huruf nama aplikasi*/
+
+.batas1		{width: ;
+				height: 5px;
+				background-color: #FFFFFF
+			}/*Lebar, tinggi, warna background batas1*/
+
+.judul		{ width: ;
+				height: 30px;
+				background-color: #FFFF00;
+				text-align: center;
+				font-weight: bold;
+				font-size: 20pt
+			}/*Lebar, tinggi, warna background, rata tengah, tebal, ukuran teks judul*/
+
+.batas2		{ width: ;
+				height: 5px;
+				background-color: #FFFFFF
+			}/*Lebar, tinggi, warna background*/ 
+
+.isi		{ width: ;
+				height: 385px;
+				background: #FFFFFF
+			}/*Lebar, tinggi, warna background isi*/ 
+			
+.batas3		{ width: ;
+				height: 5px;
+				background-color: #669999
+			}/*Lebar, tinggi, warna background batas4*/
+
+.footer		{ width: ;
+				height: 55px;
+				background-color: #000066;
+				text-align: center;
+				font-size: 10pt;
+				color: #FFFFFF
+			}/*Lebar, tinggi, warna background, rata tengah, ukuran, warna footer*/
+
+
+			
+/*Desain Menu*/
+
+
+nav ul ul { 
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+	
+nav ul {
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 40px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+	
+nav ul li {
+	float: left; 
+}
+
+	nav ul li:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);*/
+	}
+	
+		nav ul li:hover a {
+			color: #fff; 
+		}
+		
+	nav ul li a {
+		display: block; padding: 10px 30px;
+		color: #757575; text-decoration: none;
+	}
+	
+nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+
+	nav ul ul li {
+		float: none;
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+	
+		nav ul ul li a {
+			padding: 5px 20px;
+			color: #fff;
+		}
+		
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+			
+				nav ul ul ul li a {
+				padding: 10px 40px;
+				color: #fff;
+				}
+			
+					nav ul ul ul li a:hover {
+					background: #4b545f;
+					}
+					
+nav ul ul ul {
+	position: absolute; left: 100%; top: 0;
+}
+
+
+/*Teks*/
+
+a 			{ text-decoration: none}
+/*Menghilangkan garis bawah*/
+
+
+/*Scroll*/ 
+.scroll1	{ width: 1325px;
+				height: 160px;
+				overflow: scroll
+			}/*Menampilkan tabel koleksi dengan scroll*/
+			
+.scroll2	{ width: 1325;
+				height: 50px;
+				overflow: scroll
+			}/*Menampilkan halaman dengan scroll*/
+
+.scroll3	{ width: 1325;
+				height: 124px;
+				overflow: scroll
+			}/*Menampilkan tabel user dengan scroll*/
+
+.scroll4	{ width: 1325;
+				height: 175px;
+				overflow: scroll
+			}/*Menampilkan hasil pencarian kategori*/
+			
+.scroll5	{ width: 1325;
+				height: 200px;
+				overflow: scroll
+			}/*Menampilkan data asli proses clustering*/
+			
+.scroll6	{ width: 1325;
+				height: 163px;
+				overflow: scroll
+			}/*Menampilkan Laporan ketersediaan koleksi*/
+
+.scroll7	{ width: 1325;
+				height: 475px;
+				overflow: scroll
+			}/*Menampilkan Full Screen*/
+
